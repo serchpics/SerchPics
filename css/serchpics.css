@@ -1,3 +1,33 @@
-header{
-    background-color: lightblue;
-}
+* {
+                margin: 0;
+                padding: 0;
+            }
+
+         header {
+            text-align: center;
+            color: white;
+            background-image: url("https://helpx.adobe.com/content/dam/help/en/photoshop/using/convert-color-image-black-white/jcr_content/main-pars/before_and_after/image-before/Landscape-Color.jpg");
+            background-size: cover;
+            height: 0;
+            padding-bottom: 40%;
+            vertical-align: middle;
+            display: flex;
+         }
+
+         body{
+            background-color: blanchedalmond;
+         }
+
+         footer{
+            max-width: 100%;
+            background-color: black;
+            text-align: center;
+            padding-bottom: 10%;
+            padding-top: 10%;
+            color: white;
+            font-size: 25px;
+            }
+
+            a{
+                color: lightblue;
+            }
