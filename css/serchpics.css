@@ -161,6 +161,8 @@ header nav ul li a {
 }
 
 
+
+
 /*
 header {
    text-align: center;
@@ -173,6 +175,9 @@ header {
    display: flex;
 }
 */
+
+/*BODY*/
+
 body{
    background-color: #FFF3DA;
 }
