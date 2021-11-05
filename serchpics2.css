@@ -355,26 +355,17 @@ footer{
     overflow: hidden;
 }
 
-footer ul {
-    width: fit-content;
-    float: left;
-    padding-left: 20px;
-}
-
-footer ul li {
-    display: block;
-    list-style: none; 
-}
-
-footer ul li a {
+footer p {
     font-family: Catamaran, sans-serif;
-    font-size: 16px;
+    font-size: 24px;
+    font-weight: 600;
     color: #fff;
-    line-height: 40px;
-}
-
-.footer-links-cases {
-    display: none;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 200px 0 200px;
+    line-height: 38px;
 }
 
 .footer-sm {
@@ -388,10 +379,6 @@ footer ul li a {
 }
 
 @media only screen and (min-width: 1000px){
-
-    .footer-links-cases {
-        display: block;
-    }
 
     footer ul {
         padding-right: 30px;
