@@ -123,7 +123,7 @@ header{
 
 header .header-brand{
     font-family: Catamaran, sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 900;
     color: #111;
     text-transform: uppercase;
@@ -163,6 +163,7 @@ header nav ul li a {
         padding: 0px 20px 0px 40px;
         border-right: 3px solid #111;
         float: left;
+        font-size: 30px;
     }
 
     header nav ul {
@@ -216,19 +217,28 @@ header nav ul li a {
 
 .index-links div {
     margin: 16px 16px 0;
-    height: 600px;
+    height: fit-content;
     background-color: #f2f2f2;
 }
 
 .index-links div h3 {
     font-family: Catamaran, sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     color: #111;
-    line-height: 100px;
+    line-height: 60px;
     text-align: center;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
 }
+
+.index-links div p {
+    font-family: Cormorant Garamond, sans-serif;
+    font-size: 20px;
+    color: #111;
+    line-height: 20px;
+    font-weight: 900;
+}
+
 
 @media only screen and (min-width: 1000px){
 
@@ -253,10 +263,6 @@ header nav ul li a {
 
     .index-links {
         overflow: hidden;
-    }
-
-    .index-links div h3 {
-        line-height: 230px;
     }
 }
 
