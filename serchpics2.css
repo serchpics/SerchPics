@@ -194,12 +194,13 @@ header nav ul li a {
 
 .index-banner h2{
     font-family: Catamaran, sans-serif;
-    font-size: 48px;
+    font-size: 40px;
     color: #fff;
     line-height: 70px;
     text-align: center;
     font-weight: 900;
     text-shadow: 2px 2px 8px #111;
+    margin: 0px 15px 0 15px;
 }
 
 .index-banner h1{
@@ -237,7 +238,11 @@ header nav ul li a {
     }
 
     .index-banner {
-        height: 450px;
+        height: 500px;
+    }
+
+    .index-banner h2{
+        font-size: 48px;
     }
 
     .index-banner h1{
