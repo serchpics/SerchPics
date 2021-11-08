@@ -144,7 +144,7 @@ header nav ul li {
     float: left;
     margin: 0 auto;
     list-style: none;
-    padding: 0 16px;
+    padding: 0 10px;
 }
 
 header nav ul li a {
@@ -180,7 +180,7 @@ header nav ul li a {
 .index-banner {
     width: 100%;
     height: calc(100vh - 100px);
-    background-image: url(https://designerfirst.com/wp-content/uploads/2021/06/web-designer-feat.jpg);
+    background-image: url(https://lh4.googleusercontent.com/9QdbKvKH7yJoIJM5phKJPYqisW4GcfXTyIGrTYQAluslsdv5k07taGrLjl_gDTnaT9--VpZ1FdmbC-AUh6VLbvG_OpmQS5QA5wxfkBjwSvHEkcQdQx9S9tL_6tECqq3aBQ=w1280);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -194,7 +194,7 @@ header nav ul li a {
 
 .index-banner h2{
     font-family: Catamaran, sans-serif;
-    font-size: 60px;
+    font-size: 48px;
     color: #fff;
     line-height: 70px;
     text-align: center;
@@ -215,8 +215,7 @@ header nav ul li a {
 
 .index-links div {
     margin: 16px 16px 0;
-    width: calc(100% - 32px);
-    height: 100px;
+    height: 600px;
     background-color: #f2f2f2;
 }
 
@@ -249,21 +248,6 @@ header nav ul li a {
 
     .index-links {
         overflow: hidden;
-    }
-
-    .index-links div {
-        margin: 20px 10px 0;
-        height: 230px;
-        background-color: #f2f2f2;
-        float: left;
-    }
-
-    .index-boxlink-square{
-        width: calc(25% - 20px) !important;
-    }
-
-    .index-boxlink-rectangle{
-        width: calc(50% - 20px) !important;
     }
 
     .index-links div h3 {
