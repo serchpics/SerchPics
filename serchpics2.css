@@ -239,6 +239,13 @@ header nav ul li a {
     font-weight: 900;
 }
 
+.index-links .prices  {
+    margin: 20px 20px 0;
+    height: fit-content;
+    width: fit-content;
+    background-color: blueviolet;
+}
+
 
 @media only screen and (min-width: 1000px){
 
