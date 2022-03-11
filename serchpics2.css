@@ -181,7 +181,7 @@ header nav ul li a {
 .index-banner {
     width: 100%;
     height: calc(100vh - 100px);
-    background-image: url(https://lh4.googleusercontent.com/9QdbKvKH7yJoIJM5phKJPYqisW4GcfXTyIGrTYQAluslsdv5k07taGrLjl_gDTnaT9--VpZ1FdmbC-AUh6VLbvG_OpmQS5QA5wxfkBjwSvHEkcQdQx9S9tL_6tECqq3aBQ=w1280);
+    background-image: url(https://images.hindustantimes.com/img/2021/08/19/1600x900/patrick-dozkVhDyvhQ-unsplash_1628163163817_1629346849962.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -217,35 +217,68 @@ header nav ul li a {
 
 .index-links div {
     margin: 20px 20px 0;
-    height: fit-content;
     background-color: #f2f2f2;
+}
+
+.index-links .index-links_div1 {
+    height: 750px;
+}
+
+.index-links .index-links_div2 {
+    height: fit-content;
+}
+
+.index-links .index-links_div3 {
+    height: fit-content;
 }
 
 .index-links div h3 {
     font-family: Catamaran, sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     color: #111;
     line-height: 60px;
     text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.index-links div h2 {
+    font-family: Catamaran, sans-serif;
+    font-size: 19px;
+    color: #111;
+    line-height: 30px;
+    text-align: center;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 0px 0px 10px;
 }
 
 .index-links div p {
     font-family: Cormorant Garamond, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     color: #111;
-    line-height: 30px;
+    line-height: 20px;
     font-weight: 900;
 }
 
 .index-links .prices  {
-    margin: 20px 20px 0;
+    margin: 0px 1.66% 0;
     height: fit-content;
-    width: fit-content;
-    background-color: blueviolet;
+    width: 30%;
+    float: left;
 }
 
+.index-links .about  {
+    margin: 0px 10px% 0;
+}
+
+.index-links .index-links_div2 p{
+    margin: 0px 10px 0px;
+}
+
+.index-links .index-links_div3 p{
+    margin: 0px 10px 0px;
+}
 
 @media only screen and (min-width: 1000px){
 
