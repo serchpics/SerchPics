@@ -118,7 +118,7 @@ header{
     left: 0;
     background-color: #fff;
     width: 100%;
-    height: 100px ;
+    height: 105px ;
 }
 
 header .header-brand{
@@ -176,6 +176,12 @@ header nav ul li a {
     }
 }
 
+@media (max-width: 800px){
+    header nav{
+        text-align: center;
+    }
+}
+
 /*INDEX*/
 
 .index-banner {
@@ -216,12 +222,39 @@ header nav ul li a {
 }
 
 .index-links div {
-    margin: 20px 20px 0;
+    margin: 10px 10px 10px;
     background-color: #f2f2f2;
 }
 
 .index-links .index-links_div1 {
-    height: 750px;
+    height: fit-content;
+    display: grid;
+}
+
+#tittlePrices{
+    grid-column: 1/ span 3; 
+    grid-row: 1;
+    text-align: center;
+}
+
+#prices1{
+    grid-column: 1; 
+    grid-row: 2 / span 2;
+}
+
+#prices2{
+    grid-column: 2; 
+    grid-row: 2;
+}
+
+#prices3{
+    grid-column: 3; 
+    grid-row: 2;
+}
+
+#prices4{
+    grid-column: 2 / span 2; 
+    grid-row: 3;
 }
 
 .index-links .index-links_div2 {
@@ -261,13 +294,6 @@ header nav ul li a {
     font-weight: 900;
 }
 
-.index-links .prices  {
-    margin: 0px 1.66% 0;
-    height: fit-content;
-    width: 30%;
-    float: left;
-}
-
 .index-links .about  {
     margin: 0px 10px% 0;
 }
@@ -303,6 +329,13 @@ header nav ul li a {
 
     .index-links {
         overflow: hidden;
+    }
+}
+
+@media (max-width: 800px){
+    .index-links .index-links_div1 {
+        height: fit-content;
+        display: block;
     }
 }
 
