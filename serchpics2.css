@@ -259,10 +259,12 @@ header nav ul li a {
 
 .index-links .index-links_div2 {
     height: fit-content;
+    padding-bottom: 10px;
 }
 
 .index-links .index-links_div3 {
     height: fit-content;
+    padding-bottom: 2px;
 }
 
 .index-links div h3 {
@@ -306,6 +308,11 @@ header nav ul li a {
     margin: 0px 10px 0px;
 }
 
+.index-links .index-links_div3 .imageContainer img {
+    width: 100%;
+    padding-top: 10px;
+}
+
 @media only screen and (min-width: 1000px){
 
     .wrapper{
@@ -332,10 +339,46 @@ header nav ul li a {
     }
 }
 
-@media (max-width: 800px){
+@media only screen and (max-width: 800px){
     .index-links .index-links_div1 {
         height: fit-content;
         display: block;
+    }
+}
+
+@media only screen and (min-width: 750px){
+    .index-links .index-links_div3 .imageContainer{
+        display: grid;
+    }
+
+    .index-links .index-links_div3 .imageContainer .column1{
+        display: grid;
+        grid-column: 1;
+        columns: 1;
+    }
+
+    .index-links .index-links_div3 .imageContainer .column1 .img{
+        width: 100%;
+    }
+
+    .index-links .index-links_div3 .imageContainer .column2{
+        display: grid;
+        grid-column: 2;
+        columns: 1;
+    }
+
+    .index-links .index-links_div3 .imageContainer .column2 .img{
+        width: 100%;
+    }
+
+    .index-links .index-links_div3 .imageContainer .column3{
+        display: grid;
+        grid-column: 3;
+        columns: 1;
+    }
+
+    .index-links .index-links_div3 .imageContainer .column3 .img{
+        width: 100%;
     }
 }
 
