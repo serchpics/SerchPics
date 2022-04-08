@@ -311,6 +311,6 @@ footer div p {
 
 /*HOVERING OVER IMAGES*/
 
-img:hover {
-    transform: scale(1.15);
+img:not(.container img):hover {
+    transform: scale(1.05);
 }

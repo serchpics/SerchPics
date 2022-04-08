@@ -118,7 +118,8 @@ header{
     left: 0;
     background-color: #fff;
     width: 100%;
-    height: 105px ;
+    height: 105px;
+    z-index: 2;
 }
 
 header .header-brand{
@@ -184,9 +185,10 @@ header nav ul li a {
 
 /*INDEX*/
 
+/*
 .index-banner {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 105px);
     background-image: url(https://images.hindustantimes.com/img/2021/08/19/1600x900/patrick-dozkVhDyvhQ-unsplash_1628163163817_1629346849962.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -219,6 +221,37 @@ header nav ul li a {
     text-align: center;
     font-weight: 100;
     text-shadow: 2px 2px 8px #111;
+}
+*/
+
+.container {
+    width: 100%;
+    height: calc(100vh - 105px);
+}
+
+.swiper {
+    height: calc(100vh - 105px);
+    width: 100%;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: #fff;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #fff;
+}
+
+.container img{
+    width: 100%;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 900px){
+    .container img{
+        height: 100%;
+        width: auto;
+    }
 }
 
 .index-links div {
@@ -450,6 +483,6 @@ footer div p {
 
 /*HOVERING OVER IMAGES*/
 
-img:hover {
-    transform: scale(1.15);
+img:not(.container img):hover {
+    transform: scale(1.05);
 }
