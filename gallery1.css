@@ -317,9 +317,3 @@ footer div p {
         display: block;
     }
 }
-
-/*HOVERING OVER IMAGES*/
-
-img:not(.container img):hover {
-    transform: scale(1.05);
-}
