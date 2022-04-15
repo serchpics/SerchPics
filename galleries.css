@@ -197,10 +197,14 @@ header nav ul li a {
     font-family: Catamaran, sans-serif;
     font-size: 24px;
     color: #111;
-    line-height: 60px;
+    line-height: 50px;
     padding-left: 10px;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.index-links div h2 {
+    padding-left: 10px;
 }
 
 .index-links .index-links_div3 .imageContainer img {
