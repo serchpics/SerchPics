@@ -290,6 +290,11 @@ header nav ul li a {
     grid-row: 3;
 }
 
+#prices5{
+    grid-column: 1 / span 3; 
+    grid-row: 4;
+}
+
 .index-links .index-links_div2 {
     height: fit-content;
     padding-bottom: 10px;
