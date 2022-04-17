@@ -203,20 +203,23 @@ header nav ul li a {
     text-transform: uppercase;
 }
 
+.index-links div h2 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
 .index-links .index-links_div3 .imageContainer{
     display: grid;
     grid-gap: 10px;
 }
 
 .index-links .index-links_div3 .imageContainer .column1{
-    display: grid;
     grid-column: 1;
     columns: 1;
     margin: 0px 0px 0px;
 }
 
 .index-links .index-links_div3 .imageContainer .column2{
-    display: grid;
     grid-column: 2;
     columns: 1;
     margin: 0px 0px 0px;
@@ -307,10 +310,4 @@ footer div p {
     .footer-sm {
         display: block;
     }
-}
-
-/*HOVERING OVER IMAGES*/
-
-img:not(.container img):hover {
-    transform: scale(1.05);
 }

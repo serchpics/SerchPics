@@ -243,20 +243,17 @@ header nav ul li a {
     }
 
     .index-links .index-links_div3 .imageContainer .column1{
-        display: grid;
         grid-column: 1;
         columns: 1;
     }
 
     .index-links .index-links_div3 .imageContainer .column2{
-        display: grid;
         grid-column: 2;
         columns: 1;
         margin: 0px 5px 0px;
     }
 
     .index-links .index-links_div3 .imageContainer .column3{
-        display: grid;
         grid-column: 3;
         columns: 1;
     }
