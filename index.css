@@ -185,11 +185,10 @@ header nav ul li a {
 
 /*INDEX*/
 
-/*
 .index-banner {
     width: 100%;
     height: calc(100vh - 105px);
-    background-image: url(https://images.hindustantimes.com/img/2021/08/19/1600x900/patrick-dozkVhDyvhQ-unsplash_1628163163817_1629346849962.jpg);
+    background-image: url(https://user-images.githubusercontent.com/93047145/171392799-7725ed3e-830d-4af4-85a3-7fb0d8965e70.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -212,7 +211,7 @@ header nav ul li a {
     margin: 0px 15px 0 15px;
 }
 
-.index-banner h1{
+/*.index-banner h1{
     font-family: Cormorant Garamond, sans-serif;
     font-size: 28px;
     color: #fff;
@@ -221,8 +220,7 @@ header nav ul li a {
     text-align: center;
     font-weight: 100;
     text-shadow: 2px 2px 8px #111;
-}
-*/
+}*/
 
 .container {
     width: 100%;
@@ -420,6 +418,18 @@ header nav ul li a {
     .index-links .index-links_div1 {
         height: fit-content;
         display: block;
+    }
+}
+
+@media only screen and (max-width: 749.9px){
+    .container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 750px){
+    .index-banner {
+        display: none;
     }
 }
 
