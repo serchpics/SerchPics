@@ -354,8 +354,13 @@ footer div p {
     }
 }
 
-/*HOVERING OVER IMAGES*/
+/*HOVERING*/
 
 img:not(.container img):hover {
     transform: scale(1.05);
+}
+
+p a:hover {
+    background-color: #FFD06F;
+    color: #0D7FDB;
 }

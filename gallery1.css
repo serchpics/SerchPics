@@ -316,3 +316,14 @@ footer div p {
         display: block;
     }
 }
+
+/*HOVERING*/
+
+img:not(.container img):not(.imageContainer img):hover {
+    transform: scale(1.05);
+}
+
+p a:hover {
+    background-color: #FFD06F;
+    color: #0D7FDB;
+}
